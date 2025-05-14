@@ -55,6 +55,8 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 Make sure to replace your_mongodb_connection_string and your_jwt_secret with the actual values.
 
+4. Creating admin
+Before starting the database create a admin account manually by using atlas database or by using postman api by sending api request to  
 4. Run the Backend
 Start the server with the following command:
 npm run dev
