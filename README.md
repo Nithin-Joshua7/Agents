@@ -56,7 +56,7 @@ JWT_SECRET=your_jwt_secret
 Make sure to replace your_mongodb_connection_string and your_jwt_secret with the actual values.
 
 4. Create admin account
-Before running the server create a admin account manually by using atlas database or by using postman api by sending api request to  http://localhost:5000/api/auth/register 
+Before running the server create a admin account manually by using atlas database or by using postman api and sending api request to  http://localhost:5000/api/auth/register 
 4. Run the Backend
 Start the server with the following command:
 npm run dev
