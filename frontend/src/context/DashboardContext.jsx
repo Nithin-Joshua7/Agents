@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import { toast } from "react-hot-toast";
 import PropTypes from "prop-types";
-import useAgentStore from "../store/useAgentstore";
+import useAgentStore from "../store/useAgentStore";
 import useTaskStore from "../store/useTaskStore";
 
 const DashboardContext = createContext();
