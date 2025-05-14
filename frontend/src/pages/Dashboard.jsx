@@ -9,7 +9,7 @@ import AgentModal from "../components/AgentModal";
 import DeleteModal from "../components/DeleteModal";
 import TasksModal from "../components/TasksModal";
 import { DashboardProvider, useDashboardContext } from "../context/DashboardContext";
-import UploadCSV from "../components/UploadCsv";
+import UploadCSV from "../components/UploadCSV";
 
 const DashboardContent = () => {
   const { agents, loading, error, getAgents } = useAgentStore();
