@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import useAgentStore from "../store/useAgentstore";
+import useAgentStore from "../store/useAgentStore";
 import useAuthStore from "../store/authStore";
 import AgentTable from "../components/AgentTable";
 import AgentCard from "../components/AgentCard";
